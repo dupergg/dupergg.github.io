@@ -1,0 +1,39 @@
+#header-placeholder {
+    width: 100%;
+}
+
+.header-bar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+
+    /* Debug styling */
+    /* border-style: solid; */
+    /* border-color: #FF0000; */
+}
+
+.header-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header-bar li {
+    display: inline;
+    float: left;
+}
+
+.header-bar li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.header-bar li a:hover {
+    background-color: #282828;
+}

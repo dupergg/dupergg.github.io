@@ -29,6 +29,8 @@ body {
 }
 
 .header-text {
+    padding-left: 10px;
+    padding-right: 10px;
 
 
     /* Debug styling */
@@ -37,10 +39,11 @@ body {
 }
 
 .body-text {
-    /* Debug styling */
-    /* border-style: solid; */
-    /* border-color: #FF0000; */
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+/* Header Bar */
 
 .header-bar {
     width: 100%;
@@ -77,4 +80,23 @@ body {
 .header-bar li {
     text-align: center;
     display: inline;
+}
+
+/* PDF Viewer */
+
+#pdfiframe {
+    display: flex;
+    justify-content: center;
+}
+
+.pdf-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+    aspect-ratio: 4/3;
+}
+
+iframe [title="PDF"]{
+    border: none;
+    background: transparent;
 }
